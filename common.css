@@ -1,0 +1,20 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:hidden;scroll-behavior:smooth}
+body{font-family:Mulish,Muli,sans-serif;color:#000;background:#fff;width:1440px;font-size:15px}
+a{color:inherit;text-decoration:none}
+.ann{height:41px;background:#F7BEB4;color:#414E66;font-size:15px;font-weight:600;display:flex;align-items:center;justify-content:center}
+.hdr{height:82px;background:#0F395F;display:flex;align-items:center;padding:0 132px 0 140px;color:#fff}
+.hdr .logo img{height:54px;display:block}
+.hdr nav{display:flex;gap:23px;margin-left:auto;margin-right:auto;font-size:17px;letter-spacing:.02em}
+.hdr nav a{text-decoration:underline;text-underline-offset:4px;display:flex;align-items:center;gap:8px}
+.hdr nav a.on{text-decoration-thickness:2px}
+.hdr nav svg{width:16px;height:16px}
+.hdr .ic{display:flex;gap:12px}.hdr .ic svg{width:19px;height:19px}
+.ft{background:#0F395F;color:#fff;padding:32px 130px 56px;display:grid;grid-template-columns:repeat(4,1fr)}
+.ft h4{color:#F7BEB4;font-weight:400;font-size:18px;margin-bottom:16px}
+.ft a{display:block;text-decoration:underline;text-underline-offset:3px;font-size:16px;line-height:24px}
+.sub{background:#F7BEB4;text-align:center;padding:44px 0 50px}
+.sub h3{font-weight:400;font-size:24px;letter-spacing:.03em;margin-bottom:18px}
+.sub p{font-size:15px}
+.copy{padding:26px 120px;font-size:13px}.copy a{text-decoration:underline}
+.btn{display:inline-block;background:#0F395F;color:#fff;border-radius:30px;font-size:15px;padding:12px 28px;letter-spacing:.04em}
